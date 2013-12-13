@@ -1,0 +1,53 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+@font-face {
+  font-family: 'Oswald';
+  src: url "fonts/Oswald-Regular.ttf"; }
+
+.hi_there {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #fff;
+  font-size: 180px;
+  opacity: 0.8; }
+
+.hi_there_small {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #fff;
+  font-size: 13px; }
+
+.hi_there_small a {
+  text-decoration: none;
+  color: white; }
+
+.text_form {
+  height: 100px;
+  width: 500px;
+  top: -45px;
+  position: relative; }
+
+.time_now {
+  font-weight: 400;
+  opacity: 0.5;
+  display: inline; }
+
+.time_now:hover {
+  font-weight: 400;
+  opacity: 0.99;
+  display: inline; }
+
+body {
+  padding: 0; }
