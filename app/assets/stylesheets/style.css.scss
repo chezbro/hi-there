@@ -4,20 +4,48 @@
 }
 
 
-
   .hi_there{
   font-family: 'Lato', sans-serif;
   font-weight: 100;
   color: #fff;
   font-size:180px;
+  opacity: 0.8;
   }
   .hi_there_small{
 
   font-family: 'Lato', sans-serif;
   font-weight: 100;
   color: #fff;
-  font-size: 20px;
+  font-size: 13px;
+
   }
+  .hi_there_small a{
+
+  text-decoration: none;
+  color: #fff
+
+  }
+
+  .text_form{
+
+  height: 100px;
+  width: 500px;
+  top: -45px;
+  position: relative;
+  }
+
+.time_now{
+  font-weight:400;
+   opacity:0.5;
+   display: inline;
+}
+.time_now:hover{
+  font-weight: 400;
+  opacity: 0.99;
+  display: inline;
+  border-bottom: 7px solid #fff;
+}
+
 
 
 
