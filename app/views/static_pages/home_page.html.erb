@@ -1,6 +1,5 @@
 <html>
 <head>
-  <script src="/jquery-1.3.2.js" type="text/javascript" charset="utf-8"></script>
   <script src="/jquery.color.js" type="text/javascript" charset="utf-8"></script>
   <script src="/jquery-glowing.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript" charset="utf-8">
@@ -17,7 +16,7 @@
   <title></title>
 </head>
 <body style="background-color:#0097ff;">
-<h1 class="hi_there">hi.<br>how's your <span class="hi_there time_now orange"><%= Time.now.strftime("%A") %></span> going?</h1>
+<h1 class="hi_there">hi.<br>how's your <span class="hi_there time_now orange"><%= Time.zone.now.strftime("%A") %></span> going?</h1>
 
 <div style="padding-top:500px;">
 <h4 class="hi_there_small"><a href="http://www.ericchesbrough.com">chezbro</a></h4>
