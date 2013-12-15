@@ -4,4 +4,7 @@ class StaticPagesController < ApplicationController
     @name = params[:name]
   end
 
+  def lysie
+  end
+
 end
