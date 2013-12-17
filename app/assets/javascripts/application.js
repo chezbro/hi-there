@@ -12,13 +12,4 @@
 //
 
 //= require turbolinks
-//= require jquery
-//= require bigvideo
-//= require chez_x_hypem
-//= require jquery-glowing
-//= require jquery.color
-//= require jquery_transmit
-//= require jquery.imagedloaded
-//= require modernizr
-//= require shards
 //= require_tree .
