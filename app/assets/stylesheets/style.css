@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url ('fonts/Oswald-Regular.ttf');
+}
+
+
+  .hi_there{
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #fff;
+  font-size:180px;
+  opacity: 0.8;
+  }
+  .hi_there_small{
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #fff;
+  font-size: 13px;
+
+  }
+  .hi_there_small a{
+
+  text-decoration: none;
+  color: #fff
+
+  }
+
+  .text_form{
+
+  height: 100px;
+  width: 500px;
+  top: -45px;
+  position: relative;
+  }
+
+.time_now{
+  font-weight:400;
+   opacity:0.5;
+   display: inline;
+}
+.time_now:hover{
+  font-weight: 400;
+  opacity: 0.99;
+  display: inline;
+}
+//   border-bottom: 7px solid #E97F02;
+//    opacity: 1;
+//    transition: opacity 1.5s ease-in-out;
+//    -moz-transition: opacity 1.5s ease-in-out;
+//    -webkit-transition: opacity 1.5s ease-in-out;
+// }
+
+// Lysie
+
+.bg_image{
+
+padding-top: 200px;
+margin: 0 auto;
+display: inherit;
+opacity: 0.5;
+
+}

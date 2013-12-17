@@ -12,6 +12,8 @@ gem 'pg'
 gem 'rails_12factor'
 end
 
+gem 'newrelic_rpm'
+
 gem 'mysql2'
 
 # Use SCSS for stylesheets
@@ -28,6 +30,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
